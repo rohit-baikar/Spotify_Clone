@@ -1,0 +1,76 @@
+.border {
+    border: 2px solid red;
+    margin: 3px;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.invert{
+    filter: invert(1);
+}
+.bg-grey{
+    background-color: #121212;
+}
+.rounded{
+    border-radius: 7px;
+}
+.m-1{
+    margin: 5px;
+}
+.p-1{
+    padding: 10px;
+}
+.cursor{
+    cursor: pointer;
+}
+
+
+/* For Webkit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #2b2b2b; /* Dark color for the thumb */
+    border-radius: 6px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #1f1f1f; /* Dark color for the track */
+  }
+  
+  /* For Firefox */
+  /* Note: Firefox supports scrollbar-color starting from version 64 */
+  /* For earlier versions, you might need to use -moz prefix */
+  
+  /* Uncomment the following lines if you want to target Firefox 64 and later */
+  /*
+    scrollbar-color: #2b2b2b #1f1f1f;
+  */
+  
+  /* For Internet Explorer and Edge */
+  /* Note: Custom styling is only supported in EdgeHTML (not Chromium-based Edge) */
+  /* It might not work in newer versions of Edge */
+  
+  /* Uncomment the following lines if you want to target Internet Explorer and Edge */
+  /*
+    scrollbar-face-color: #2b2b2b;
+    scrollbar-track-color: #1f1f1f;
+    scrollbar-arrow-color: #ffffff;
+  */
+  
+  /* General styles for all bro
+  
